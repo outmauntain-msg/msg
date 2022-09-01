@@ -6,7 +6,7 @@ body {
 }
 
 @keyframes bgcolor {
-  0% { background-color: #cc0000;}
-  25% { background-color: #00cc00;}
-  75% { background-color: #0000cc;}
+  0%  { background-color: #cc0000; }
+  25% { background-color: #00cc00; }
+  75% { background-color: #0000cc; }
 }
