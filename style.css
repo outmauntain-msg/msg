@@ -5,16 +5,62 @@ html {
 }
 
 body {
+  font-size: 1.4rem;
   margin: 0;
 }
 
 h1 {
-  margin: 0;
+  position: relative;
+  line-height: 1.4;
+  padding:0.25em 1em;
+  top:0;
+}
+
+h1::before, h1::after { 
+  position: absolute;
+  top: 0;
+  content:'';
+  width: 8px;
+  height: 100%;
+  display: inline-block;
+}
+h1::before {
+  border-left: solid 1px black;
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+  left: 0;
+}
+h1::after {
+  content: '';
+  border-top: solid 1px black;
+  border-right: solid 1px black;
+  border-bottom: solid 1px black;
+  right: 0;
 }
 
 .logo {
   height: 180px;
   width: 180px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 1000px
+}
+
+main > section {
+  background: #ccc;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 320px;
+}
+
+main > section h1 {
+  text-align: center;
 }
 
 table {
@@ -29,4 +75,14 @@ th, td {
 
 tr:nth-child(odd) {
   background: #ccc;
+}
+
+@media screen and (max-width:1000px) {
+  main {
+    display: block;
+  }
+
+  main > section {
+    max-width: 100%;
+  }
 }
