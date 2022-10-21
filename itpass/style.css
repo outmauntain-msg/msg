@@ -1,0 +1,10 @@
+section {
+    border: solid 1px #ccc;
+    padding: 10px 20px;
+}
+section h1 {
+    background: #eee;
+    border-bottom: solid 1px #999;
+    border-left: solid 5px #999;
+    padding: 0 0 0 10px;
+}

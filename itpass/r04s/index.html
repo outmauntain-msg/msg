@@ -3,34 +3,38 @@
   <head>
     <meta charset="UTF-8">
     <title>ITパスポート試験</title>
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="../script.js"></script>
   </head>
-  <body>
+<body>
+  <main>
     <section>
       <h1>第１問</h1>
       <dl>
         <dt>問題の内容</dt>
-        <dd>答え:エ</dd>
+        <dd data-ans="エ"><button class="btn">答え</button></dd>
       </dl>     
     </section>
     <section>
       <h1>第2問</h1>
       <dl>
         <dt>4マス=テレビ・新聞・ラジオ・雑誌</dt>
-        <dd>答え:イ</dd>
+        <dd data-ans="イ"><button class="btn">答え</button></dd>
       </dl>     
     </section>
     <section>
       <h1>第3問</h1>
       <dl>
         <dt>グループウェア=サイボウズ(例)</dt>
-        <dd>答え:ウ</dd>
+        <dd data-ans="ウ"><button class="btn">答え</button></dd>
       </dl>     
     </section>
     <section>
       <h1>第4問</h1>
       <dl>
         <dt>ラーニング=学習 マネジメント=管理</dt>
-        <dd>答え:ア</dd>
+        <dd data-ans="ア"><button class="btn">答え</button></dd>
       </dl>     
     </section>
     <section>
@@ -40,35 +44,35 @@
           ウ Service Level agreement
           エ Work breakdown Structure
         </dt>
-        <dd>答え:イ</dd>
+        <dd data-ans="イ"><button class="btn">答え</button></dd>
       </dl>     
     </section>
     <section>
       <h1>第6問</h1>
       <dl>
         <dt>アライアンス=業務提携</dt>
-        <dd>答え:ウ</dd>
+        <dd data-ans="ウ"><button class="btn">答え</button></dd>
       </dl>     
     </section>
     <section>
       <h1>第7問</h1>
       <dl>
         <dt>乖離=差</dt>
-        <dd>答え:イ</dd>
+        <dd data-ans="イ"><button class="btn">答え</button></dd>
       </dl>     
     </section>
     <section>
       <h1>第8問</h1>
       <dl>
         <dt>RFI=request For Informationの略</dt>
-        <dd>答え:エ</dd>
+        <dd data-ans="エ"><button class="btn">答え</button></dd>
       </dl>     
     </section>
     <section>
       <h1>第9問</h1>
       <dl>
         <dt>c=ウイルス作成罪</dt>
-        <dd>答え:ア</dd>
+        <dd data-ans="ア"><button class="btn">答え</button></dd>
       </dl>     
     </section>
     <section>
@@ -77,7 +81,7 @@
         <dt>まとめたもの=ポートフォリオ
           ppm=プロダクトポートフォリオマネジメント
         </dt>
-        <dd>答え:ア</dd>
+        <dd data-ans="ア"><button class="btn">答え</button></dd>
       </dl>     
     </section>
     <section>
@@ -88,7 +92,7 @@
           3000-1100=1900余力
           手形は満期前なので無視
         </dt>
-        <dd>答え:イ</dd>
+        <dd data-ans="イ"><button class="btn">答え</button></dd>
       </dl>     
     </section>
     <section>
@@ -98,49 +102,49 @@
           Founding(資金調達)
           CMPFIRE・ReadyForなどなど
         </dt>
-        <dd>答え:エ</dd>
+        <dd data-ans="エ"><button class="btn">答え</button></dd>
       </dl>     
     </section>
     <section>
       <h1>第13問</h1>
       <dl>
         <dt></dt>
-        <dd>答え:エ</dd>
+        <dd data-ans="エ"><button class="btn">答え</button></dd>
       </dl>     
     </section>
     <section>
       <h1>第14問</h1>
       <dl>
         <dt>シュリンクラップ=CDなどのようにピチー!ってなっている包装のこと</dt>
-        <dd>答え:ア</dd>
+        <dd data-ans="ア"><button class="btn">答え</button></dd>
       </dl>     
     </section>
     <section>
       <h1>第15問</h1>
       <dl>
         <dt></dt>
-        <dd>答え:エ</dd>
+        <dd data-ans="エ"><button class="btn">答え</button></dd>
       </dl>     
     </section>
     <section>
       <h1>第16問</h1>
       <dl>
         <dt>マイナンバーは政府が決めている</dt>
-        <dd>答え:エ</dd>
+        <dd data-ans="エ"><button class="btn">答え</button></dd>
       </dl>     
     </section>
     <section>
       <h1>第17問</h1>
       <dl>
         <dt>BYOD=Bring Your Own Device</dt>
-        <dd>答え:ウ</dd>
+        <dd data-ans="ウ"><button class="btn">答え</button></dd>
       </dl>     
     </section>
     <section>
       <h1>第18問</h1>
       <dl>
         <dt>IoT / AI / ビッグデータ</dt>
-        <dd>答え:ア</dd>
+        <dd data-ans="ア"><button class="btn">答え</button></dd>
       </dl>     
     </section>
     <section>
@@ -150,15 +154,36 @@
           イ=顧客の視点
           ウ=学習・技術の視点
         </dt>
-        <dd>答え:エ</dd>
+        <dd data-ans="エ"><button class="btn">答え</button></dd>
       </dl>     
     </section>
     <section>
       <h1>第20問</h1>
       <dl>
         <dt></dt>
-        <dd>答え:イ</dd>
+        <dd data-ans="イ"><button class="btn">答え</button></dd>
       </dl>     
     </section>
-  </body>
+    <section>
+      <h1>第21問</h1>
+      <dl>
+        <dt></dt>
+        <dd data-ans="イ"><button class="btn">答え</button></dd>
+      </dl>     
+    </section>
+    <section>
+      <h1>第22問</h1>
+      <dl>
+        <dt>SCM (Supply Chain Management)の略
+          Supply (供給) Demand (需要)
+          SWOT (Strenghth Weakness Opportunity Threat)の話
+          正解!
+          バリューチェーン分析
+          PPM分析
+        </dt>
+        <dd data-ans="イ"><button class="btn">答え</button></dd>
+      </dl>     
+    </section>
+  </main>
+</body>
 </html>
