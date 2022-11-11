@@ -1,0 +1,16 @@
+#sort {
+    border-collapse: collapse;
+}
+
+.sort tbody tr td:nth-child(3) {
+    text-align: right;    
+}
+.sort tbody tr td:nth-child(4) {
+    text-align: center;    
+}
+#sort th,
+#sort td {
+    border: solid 1px #000;
+    padding: 5px;
+    width: 33.3%;
+}
