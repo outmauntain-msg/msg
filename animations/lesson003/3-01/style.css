@@ -1,0 +1,11 @@
+.wrap{
+    height: 240px;
+    overflow: hidden;
+    width: 240px;
+}
+.test{
+    transition: .5 all ease-out;
+}
+.test:hover{
+    transform: scale(1.2,1.2);
+}
