@@ -1,7 +1,16 @@
 ﻿@charset "utf-8";
 
 /* 基本レイアウト ここから↓ */
-
+@import url(common.css);
+body {
+    background-color: #f3f2e9;
+    color: #5f5039;
+}
+header, nav, #breadcrumb, #contents, footer {
+    width: 840px;
+    margin-left: auto;
+    margin-right: auto;
+}
 /* 基本レイアウト ここまで↑ */
 
 /* トップページ ここから↓ */
